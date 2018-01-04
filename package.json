@@ -1,0 +1,24 @@
+{
+  "name": "Weather",
+  "version": "1.0.0",
+  "description": "Weather app",
+  "author": "Coolbreeze <gibuscoolbreeze@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dev-rest-proxy": "^0.3.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "ip": "^1.1.5",
+    "node-where": "^1.1.0",
+    "nodemon": "^1.11.0",
+    "strman": "^2.0.0"
+  },
+  "devDependencies": {
+    "geoip-lite": "^1.2.1"
+  }
+}
